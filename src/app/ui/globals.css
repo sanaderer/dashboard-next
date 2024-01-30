@@ -1,6 +1,6 @@
 :root{
     --bg: #FFFFFF;
-    --bgSoft: #F8F8F8;
+    --bgSoft: #FBFBFB;
     --text: black;
     --textSoft: #B7BAC1;
 }
@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color: var(--bg);
+    background-color: var(--bgSoft);
     color: var(--text);
 }
 

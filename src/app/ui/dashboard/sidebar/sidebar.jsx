@@ -1,6 +1,6 @@
-import React from 'react';
-import styles from './sidebar.module.css';
-import Image from 'next/image';
+import React from 'react'
+import styles from './sidebar.module.css'
+import Image from 'next/image'
 
 const Sidebar = () => {
   return (
