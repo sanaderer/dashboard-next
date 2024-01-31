@@ -11,7 +11,7 @@ const Navbar = () => {
         <input type="text" placeholder="Search" className={styles.input}/>
       </div>
       <div className={styles.addButton}>
-        <Link href="/dashboard/users/add">
+        <Link href="/dashboard/blog">
           <button className={styles.addButton}>+</button>
         </Link>
       </div>
