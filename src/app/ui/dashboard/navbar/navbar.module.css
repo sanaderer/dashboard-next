@@ -24,4 +24,5 @@
     border: none;
     outline: none;
     color: var(--textSoft);
+    background-color: var(--bgSoft);
 }

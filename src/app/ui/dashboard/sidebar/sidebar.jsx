@@ -24,7 +24,7 @@ const Sidebar = () => {
 const NavItem = ({ icon, alt, className }) => {
   return (
     <div className={`${styles.navItem} ${className}`}>
-      <Image src={icon} alt={alt} width="26" height="26" />
+      <Image src={icon} alt={alt} width="20" height="20" />
     </div>
   );
 };

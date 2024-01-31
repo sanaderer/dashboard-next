@@ -1,0 +1,37 @@
+.container {
+    background-color: var(--bg);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+    width: 326px; 
+    height: 208px;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap; 
+}
+
+.element-text {
+    font-size: 10px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.description{
+    font-size: 15px;
+}
+.detail {
+    font-size: 15px;
+}
