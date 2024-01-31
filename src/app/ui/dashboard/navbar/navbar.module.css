@@ -1,28 +1,45 @@
-.container{
+/* navbar.module.css */
+.container {
     padding: 10px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.menu{
+  }
+  
+  .menu {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-.search{
+  }
+  
+  .search {
     display: flex;
     align-items: center;
     gap: 10px;
     padding: 10px;
     border-radius: 10px;
-}
-
-.input{
+  }
+  
+  .input {
     border: none;
     outline: none;
     color: var(--textSoft);
     background-color: var(--bgSoft);
-}
+  }
+  
+  .addButton {
+    background-color: #4339F2;
+    border: none;
+    border-radius: 50%;
+    width: 40px; 
+    height: 40px; 
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto; /* Add this line to push the button to the right */
+  }
+  

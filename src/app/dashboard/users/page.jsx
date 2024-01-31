@@ -1,7 +1,11 @@
+import styles from "/src/app/ui/dashboard/users/users.module.css"
+
 const UsersPage = () => {
   return (
-    <div>
-      <h1>Users</h1>
+    <div className={styles.container}>
+      <div className={styles.top}>
+      </div>
+      <table className={styles.table}></table>
     </div>
   );
 }
