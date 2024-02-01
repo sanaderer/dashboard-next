@@ -1,6 +1,10 @@
+import { fetchBlogs } from '../../lib/data';
 import styles from '/src/app/ui/dashboard/blog/blog.module.css';
 
-const BlogPage = () => {
+const BlogPage = async() => {
+  const blogs = await fetchBlogs();
+
+  console.log(blogs)
   return (
     <div className={styles.container}>
       <form action="" className={styles.card}>
