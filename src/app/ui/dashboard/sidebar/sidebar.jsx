@@ -10,13 +10,14 @@ import CalendarSvg from '@/src/svgs/CalendarSvg'
 import HotSvg from '@/src/svgs/HotSvg'
 import DataSvg from '@/src/svgs/DataSvg'
 import SettingSvg from '@/src/svgs/SettingSvg'
+import LogoSvg from '@/src/svgs/LogoSvg'
 
 const Sidebar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
       <Link href="/dashboard">
-        <Image src="/logo.png" alt="logo" width="36" height="36" />
+        <LogoSvg width={36} />
       </Link>
       </div>
       <hr className={styles.divider}/>
