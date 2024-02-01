@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.search}>
-        <SearchSvg widht={24} />
+        <SearchSvg width={24} />
         <input type="text" placeholder="Search" className={styles.input} />
       </div>
       <div className={styles.addButton}>

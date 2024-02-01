@@ -1,8 +1,8 @@
-export default function SearchSvg({ widht }) {
+export default function SearchSvg({ width }) {
   return (
     <svg
-      width={widht || 24}
-      height={widht || 24}
+      width={width || 24}
+      height={width || 24}
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

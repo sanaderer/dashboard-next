@@ -2,6 +2,14 @@ import React from 'react'
 import styles from './sidebar.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
+import UserSvg from '/src/svgs/UserSvg'
+import UploadSvg from '/src/svgs/UploadSvg'
+import AnalyticsSvg from '@/src/svgs/AnalyticsSvg'
+import ImageSvg from '@/src/svgs/ImageSvg'
+import CalendarSvg from '@/src/svgs/CalendarSvg'
+import HotSvg from '@/src/svgs/HotSvg'
+import DataSvg from '@/src/svgs/DataSvg'
+import SettingSvg from '@/src/svgs/SettingSvg'
 
 const Sidebar = () => {
   return (
@@ -12,12 +20,14 @@ const Sidebar = () => {
       </Link>
       </div>
       <hr className={styles.divider}/>
-      <NavItem icon="/icon-1.png" alt="user" />
-      <NavItem icon="/icon-2.png" alt="upload" />
-      <NavItem icon="/icon-3.png" alt="analytics" />
-      <NavItem icon="/icon-4.png" alt="images" />
-      <NavItem icon="/icon-5.png" alt="calendar" />
-      <NavItem icon="/icon-8.png" alt="settings" className={styles.settings} />
+      <UserSvg width={26} />
+      <UploadSvg width={26}/>
+      <AnalyticsSvg width={26} />
+      <ImageSvg width={26} />
+      <CalendarSvg width={26} />
+      <HotSvg width={26} />
+      <DataSvg width={26} />
+      <SettingSvg width={26} className={styles.settings} />
       <ul>
       </ul>
     </div>
