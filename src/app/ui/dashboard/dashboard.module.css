@@ -3,11 +3,12 @@
 }
 
 .menu{
+    flex: 1.5;
     background-color: var(--bg);
 }
 
 .content{
-    flex:32;
+    flex: 32;
     padding: 20px;
     flex-direction: column;
 }
