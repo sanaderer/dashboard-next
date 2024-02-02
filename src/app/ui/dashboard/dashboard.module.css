@@ -18,10 +18,13 @@
     display: flex;
     gap: 20px;
     margin-top: 20px;
+    padding: 30px;
 }
 
-.cards{
+.cards {
     display: flex;
-    gap: 20px; 
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start; 
+    align-items: flex-start; 
 }
