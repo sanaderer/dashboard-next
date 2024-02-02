@@ -8,6 +8,7 @@
     cursor: pointer;
     width: 326px;
     height: 208px;
+    position: relative;
 }
 
 .card-text {
@@ -36,6 +37,16 @@
 
 .detail {
     font-size: 15px;
+}
+
+.imageContainer {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
 }
 
 @media screen and (max-width: 768px) {

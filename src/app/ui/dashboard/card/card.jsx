@@ -1,6 +1,6 @@
 import styles from './card.module.css';
 
-const Card = ({ id, tags, title, description, details }) => {
+const Card = ({ id, tags, title, description, details, image }) => {
   return (
     <div className={styles.container}>
       <div className={styles['card-text']}>
@@ -10,6 +10,11 @@ const Card = ({ id, tags, title, description, details }) => {
           </div>
         ))}
       </div>
+      {image && (
+        <div className={styles.imageContainer}>
+          <img src={image} alt={`Image for ${title}`} className={styles.image} />
+        </div>
+      )}
       <div className={styles.title}>{title}</div>
       <div className={styles.description}>{description}</div>
       <div className={styles.detail}>{details}</div>
@@ -18,4 +23,3 @@ const Card = ({ id, tags, title, description, details }) => {
 };
 
 export default Card;
-
