@@ -7,7 +7,7 @@
     gap: 20px;
     cursor: pointer;
     width: 326px;
-    height: 208px;
+    height: auto;
     position: relative;
 }
 
@@ -20,7 +20,7 @@
 
 .element-text {
     font-size: 10px;
-    padding: 5px 10px;
+    padding: 6px 10px;
     border: none;
     background-color: #DAD7FE;
     border-radius: 6px;
@@ -33,10 +33,12 @@
 
 .description {
     font-size: 15px;
+    color: #B6B5B5;
 }
 
 .detail {
     font-size: 15px;
+    color: #4339F2;
 }
 
 .imageContainer {
