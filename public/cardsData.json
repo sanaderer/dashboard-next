@@ -18,7 +18,8 @@
         "tags": ["Dogs", "Behance"],
         "title": "Kathmandu",
         "description": "When you enter into any new area",
-        "details": "Detalies"
+        "details": "Detalies",
+        "image": "kathmandu.png"
       },
       {
         "id": 4,
@@ -33,13 +34,56 @@
         "title": "Melbourne",
         "description": "When you enter into any new area of science, you almost always find.",
         "details": "Detalies",
-        "image": "Image.png"
+        "image": "melbourne.png"
       },
       {
         "id": 6,
         "tags": ["Lost", "Toronto", "Green"],
         "title": "Casablanca",
-        "description": "When you enter into any new area of science, you almost always find."
+        "description": "When you enter into any new area of science, you almost always find.",
+        "image": "casablanca.png"
+      },
+      {
+        "id": 7,
+        "tags": ["Harare", "Alexandria", "Hubble"],
+        "title": "Brisbane",
+        "description": "When you enter into any new area of science, you almost always find.",
+        "details": "Detalies"
+      },
+      {
+        "id": 8,
+        "tags": ["Text", "Khartoum", "Detroit"],
+        "title": "Louisville",
+        "description": "When you enter into any new area of science, you almost always find.",
+        "image": "louisville.png"
+      },
+      {
+        "id": 9,
+        "tags": ["Lost", "Designer"],
+        "title": "Kuala Lumpur",
+        "description": "When you enter into any new area of science, you almost always find.",
+        "details": "Detalies"
+      }, 
+      {
+        "id": 10,
+        "tags": ["Tulsa", "Columbus", "Bogotá"],
+        "title": "Bristol",
+        "description": "When you enter into any new area of science, you almost always find.",
+        "details": "Detalies"
+      },
+      {
+        "id": 11,
+        "tags": ["Lost", "Designer"],
+        "title": "Idianapolis",
+        "description": "When you enter into any new area of science, you almost always find.",
+        "image": "indianapolis.png"
+      },
+      {
+        "id": 12,
+        "tags": ["Milan", "Edinburgh"],
+        "title": "Helsinki",
+        "description": "When you enter into any new area of science, you almost always find.",
+        "details": "Detalies"
       }
 ]
   
