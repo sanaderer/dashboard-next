@@ -30,7 +30,7 @@ const Sidebar = () => {
         <DataSvg width={26} />
       </div>
       <div className={styles.navbar}>
-        <SettingSvg width={26} className={styles.settings} />
+        <SettingSvg width={26} />
       </div>
     </div>
   );
