@@ -4,7 +4,6 @@
     align-items: center;
     padding: 10px;
     height: 100vh;
-    background-color: red;
 }
 
 .logo {
@@ -14,7 +13,8 @@
 .divider {
     width: 70px;
     height: 1px;
-    background-color: black;
+    background-color: #D4D4D4;
+    border: none;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -25,10 +25,14 @@
     align-items: center;
     gap: 10px;
     margin-top: 10px;
-    margin-bottom: 30px;
+}
+
+.navItem > * {
+    margin-bottom: 50px;
 }
 
 .navbar {
     margin-top: auto;
+    margin-bottom: 20px;
 }
 
