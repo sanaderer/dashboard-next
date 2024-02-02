@@ -1,25 +1,17 @@
-import Card from "../ui/dashboard/card/card"
-import styles from "../ui/dashboard/dashboard.module.css"
+import Card from "../ui/dashboard/card/card";
+import styles from "../ui/dashboard/dashboard.module.css";
+import cardsData from "/public/cardsData.json";
 
 const DashboardPage = () => {
   return (
     <div className={styles.main}>
       <div className={styles.cards}>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {cardsData.map((card) => (
+          <Card key={card.id} {...card} />
+        ))}
       </div>
     </div>
   );
-}
+};
 
 export default DashboardPage;

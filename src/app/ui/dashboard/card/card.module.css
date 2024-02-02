@@ -20,7 +20,8 @@
 .element-text {
     font-size: 10px;
     padding: 5px 10px;
-    border: 2px solid black;
+    border: none;
+    background-color: #DAD7FE;
     border-radius: 6px;
     display: inline-block;
 }

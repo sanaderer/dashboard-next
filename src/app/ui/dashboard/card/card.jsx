@@ -1,17 +1,21 @@
 import styles from './card.module.css';
 
-const Card = () => {
+const Card = ({ id, tags, title, description, details }) => {
   return (
     <div className={styles.container}>
       <div className={styles['card-text']}>
-        <div className={styles['element-text']}>Deep</div>
-        <div className={styles['element-text']}>Minimal</div>
+        {tags.map((tag, index) => (
+          <div key={index} className={styles['element-text']}>
+            {tag}
+          </div>
+        ))}
       </div>
-      <div className={styles.title}>Cologne</div>
-      <div className={styles.description}>When you enter into any new area of science, you almost always find.</div>
-      <div className={styles.detail}>Details</div>
+      <div className={styles.title}>{title}</div>
+      <div className={styles.description}>{description}</div>
+      <div className={styles.detail}>{details}</div>
     </div>
   );
 };
 
 export default Card;
+
