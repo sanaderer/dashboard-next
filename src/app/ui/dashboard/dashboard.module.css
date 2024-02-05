@@ -28,3 +28,13 @@
     justify-content: flex-start; 
     align-items: flex-start; 
 }
+
+/*  For follow the pinterest layout 
+    .cards {
+    flex-wrap: wrap;
+    gap: 20px;
+    columns: 5;
+    box-sizing: border-box;
+    align-items: flex-start; 
+}
+} */

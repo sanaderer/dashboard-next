@@ -15,7 +15,7 @@ const Sidebar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
-      <Link href="/dashboard">
+      <Link href="/">
         <LogoSvg width={36} />
       </Link>
       </div>
